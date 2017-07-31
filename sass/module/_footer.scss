@@ -1,0 +1,111 @@
+
+footer.footer{
+    position: relative;
+    width: 100%; height: auto;
+    font-family: $font-stack;
+
+    .cta{
+        position: relative;
+        background-color: $bw-light-500;
+        color: $bw-dark-500;
+        height: 256px;
+
+        .inner{
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+
+            *{ display: block; }
+
+            .title{
+                width: auto; height: auto;
+                font-weight: 300;
+                text-transform: uppercase;
+                font-size: 16px;
+                margin-bottom: 20px;
+            }
+
+            .cta-btn{
+                position: relative;
+                width: auto;
+                height: auto;
+                margin: 0 auto;
+                padding: 24px 48px 22px 48px;
+                text-align: center;
+                font-weight: 700;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-size: 18px;
+                color: white;
+                border-radius: 2px;
+                cursor: pointer;
+                background-color: $bw-dark-500;
+
+                .icon{
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    width: 81px;
+                    height: 65px;
+                    background-color: #339a86;
+                    border-radius: 2px 0 0 2px;
+
+                    svg{
+                        fill: white;
+                        width: 32px; height: 32px;
+                        position: absolute;
+                        top: 50%; left: 50%;
+                        transform: translate(-50%,-50%);
+                    }
+                }
+
+                .text{
+                    padding-left: 81px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .signature{
+        position: relative;
+        width: 100%; height: 48px;
+        background-color: $bw-dark-500;
+
+        .inner{
+            position: relative;
+            width: 100%; height: 48px;
+            max-width: 856px;
+            margin: 0 auto;
+
+            .icon{
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
+                width: 20px;
+                height: 20px;
+                fill: $bw-light-500;
+            }
+
+            .text{
+                position: absolute;
+                top: 55%;
+                left: 38px;
+                transform: translateY(-50%);
+                text-align: center;
+                font-family: $font-stack;
+                font-size: 14px;
+                line-height: 48px;
+                color: $bw-light-500;
+                text-decoration: none;
+                font-weight: 100;
+            }
+        }
+    }
+}
+
+
+
+

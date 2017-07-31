@@ -1,0 +1,38 @@
+
+header.staticheader{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100vw; height: auto;
+    z-index: 100;
+
+    .inner{
+        position: relative;
+        width: 100%; height: auto;
+        max-width: 856px;
+        margin: 0 auto;
+
+        .menu{
+            text-align: right;
+            padding-top: 32px;
+
+            *{
+                text-decoration: none;
+                margin-left: 16px;
+                color: $bw-light-500;
+                font-family: $font-stack;
+                font-weight: 300;
+            }
+
+            a[data-cta] {
+                color: $accent-500;
+            }
+        }
+    }
+
+    .logo{
+        position: absolute;
+        top: -16px; left: 0;
+        fill: $bw-light-500;
+        width: 48px;
+    }
+}
